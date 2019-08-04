@@ -12,5 +12,5 @@ https://github.com/lilydjwg/nvchecker
 * run nvchecker:
 
 ```
-docker run --rm -it -e "NVCHECKER_GITHUB_TOKEN=..." -v "$(pwd)/data:/home/nvchecker/data" samo64/nvchecker:1.4.4 nvchecker source.ini
+docker run --rm -e "NVCHECKER_GITHUB_TOKEN=..." -v "$(pwd)/data:/home/nvchecker/data" samo64/nvchecker:1.4.4 nvchecker source.ini
 ```
